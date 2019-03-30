@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+body
+{
+	margin: 0;
+    padding: 0;
+    background-image: url("https://gaw.imgix.net/wp-content/uploads/HEAD-Top-Tips-For-Implementing-An-Expense-Management-System.jpg?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+
+.Registerbox
+{
+	width: 350px;
+	height: 500px;
+	background: #fff ;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login_icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+.Registerbox p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: lighter;
+
+}
+
+.Registerbox input{
+	width: 100% ;
+	margin-bottom: 20px;
+
+}
+.Registerbox input[type = "text"], input[type="Password"], input[type= "Email"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+}
+
+.Registerbox input[type = "submit"]
+{
+	border: none;
+	background: #FA8072;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.Registerbox input[type = "submit"]:hover
+{
+	cursor: pointer;
+	background: #DC143C;
+	color: #fff;
+}
+
+.Registerbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #0000cd;
+}
+
+.loginbox a:hover
+{
+	color: darkgrey;
+}
